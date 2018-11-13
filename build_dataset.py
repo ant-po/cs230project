@@ -144,6 +144,9 @@ if __name__ == '__main__':
 
     # Convert prices to log returns
     hist_returns = hist_prices.pct_change(1)
+    
+    # Normalise the series
+    hist_returns = (hist_returns - hist_returns.mean(axis=0))/hist_returns.std(axis=0)
 
     # Generate train data sets
     train_returns = hist_returns.iloc[:int(data_params.train_prct*hist_returns.shape[0]), :]
