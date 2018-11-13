@@ -1,0 +1,15 @@
+{
+    "use_this_data": "latest_dataset",
+    "learning_rate": 1e-3,
+    "batch_size": 32,
+    "num_epochs": 10,
+
+    "num_hidden_layers": 5,
+    "num_hidden_units": [100,100,100,100,100],
+    "num_output_units": 3,
+    "use_batch_norm": true,
+    "bn_momentum": 0.9,
+
+    "num_parallel_calls": 4,
+    "save_summary_steps": 1
+}

@@ -1,0 +1,10 @@
+{
+	"dataCodes": ["^FTSE", "^GSPC", "DJI", "^N225"],
+	"startDate": "2000-01-01",
+	"endDate": "2018-11-01",
+	"invest_horizon": 1,
+	"look_back": 10,
+	"train_prct": 0.9,
+	"dev_prct": 0.0,
+	"test_prct": 0.1
+}
