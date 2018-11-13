@@ -6,7 +6,7 @@
 
     "num_hidden_layers": 5,
     "num_hidden_units": [100,100,100,100,100],
-    "num_output_units": 3,
+    "num_output_units": 4,
     "use_batch_norm": true,
     "bn_momentum": 0.9,
 
